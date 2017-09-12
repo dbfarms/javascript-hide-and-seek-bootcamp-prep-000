@@ -35,7 +35,7 @@ function deepestChild() {
 
       if (i === grandnode.length) {
         console.log('i get here')
-        return grandnode[i-1].innerHTML;
+        return grandnode[i-1]
       }
     //  next.push(grandnode[i])
     }
